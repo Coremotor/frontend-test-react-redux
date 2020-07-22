@@ -11,8 +11,6 @@ export const InnInputField = () => {
 
     const [placeholder, setPlaceholder] = useState("ИНН организации или ИП");
 
-    console.log('innState', state);
-
     return (
         <div className={styles["input-wrapper"]}>
             <label className={styles["display-none"]} htmlFor="innInputField">ИНН</label>

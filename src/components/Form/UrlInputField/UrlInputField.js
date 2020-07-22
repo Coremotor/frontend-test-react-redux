@@ -11,8 +11,6 @@ export const UrlInputField = () => {
 
     const [placeholder, setPlaceholder] = useState("Сайт магазина");
 
-    console.log('urlState', state);
-
     return (
         <div className={styles["input-wrapper"]}>
             <label className={styles["display-none"]} htmlFor="urlInputField">Сайт</label>

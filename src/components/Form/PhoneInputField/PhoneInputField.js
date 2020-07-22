@@ -11,8 +11,6 @@ export const PhoneInputField = () => {
 
     const [placeholder, setPlaceholder] = useState("Номер телефона");
 
-    console.log('phoneState', state);
-
     return (
         <div className={styles["input-wrapper"]}>
             <label className={styles["display-none"]} htmlFor="phoneInputField">Номер телефона</label>

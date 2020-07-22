@@ -11,8 +11,6 @@ export const EmailInputField = () => {
 
     const [placeholder, setPlaceholder] = useState("Электронная почта");
 
-    console.log('emailState', state);
-
     return (
         <div className={styles["input-wrapper"]}>
             <label className={styles["display-none"]} htmlFor="emailInputField">Почта</label>
